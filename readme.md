@@ -150,6 +150,45 @@ Get blockchain in JSON format:
 http -v GET localhost:5000/json-chain
 ```
 
+## AI Architecture Analysis
+
+This project is set up as an example for the [AI Agent Toolbox for Architects](https://github.com/rastko-vukasinovic/ai-architects-toolbox) — a reusable toolkit that gives AI coding agents structured architecture analysis capabilities.
+
+### What's Included
+
+- **`.ai-toolkit/`** — The toolkit as a git submodule
+- **`AGENTS.md`** — Agent configuration with 5 skills enabled
+- **`CONTEXT.md`** — Project context for the agent
+- **`architecture-thinking.local.md`** — Custom mental model override adding "Consensus Architecture" and "Network Topology" domains
+
+### Try It Yourself
+
+With an AI coding agent (Claude, etc.), try these prompts:
+
+**Analyze the architecture:**
+```
+Read AGENTS.md then analyze this codebase's architecture
+```
+
+**Run a security analysis:**
+```
+Read AGENTS.md then run a security analysis on this project
+```
+
+**Generate a C4 model:**
+```
+Read AGENTS.md then create a Structurizr C4 workspace for this project
+```
+
+**Define fitness functions:**
+```
+Read AGENTS.md then define fitness functions for this project's key quality attributes
+```
+
+The mental model override in `architecture-thinking.local.md` demonstrates how the toolkit adapts to domain-specific concerns — the agent will automatically consider consensus mechanisms and network topology alongside standard architecture domains.
+
+---
+
 ## Used third party dependencies
 
 * [Flask](http://flask.pocoo.org/docs/0.12/quickstart/)
