@@ -152,7 +152,7 @@ http -v GET localhost:5000/json-chain
 
 ## AI Architecture Analysis
 
-This project is set up as an example for the [AI Agent Toolbox for Architects](https://github.com/rastko-vukasinovic/ai-architects-toolbox) — a reusable toolkit that gives AI coding agents structured architecture analysis capabilities.
+This project is set up as an example for the [AI Agent Toolbox for Architects](https://github.com/quantum-crowbar/quantum-toolbox) — a reusable toolkit that gives AI coding agents structured architecture analysis capabilities.
 
 ### What's Included
 

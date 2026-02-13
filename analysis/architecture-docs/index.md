@@ -3,7 +3,7 @@
 **Project**: Quantum Blockchain (QBC)
 **Analysis Date**: 2026-02-08
 **Status**: Complete
-**Toolkit**: [AI Agent Toolbox for Architects](https://github.com/rastko-vukasinovic/ai-architects-toolbox)
+**Toolkit**: [AI Agent Toolbox for Architects](https://github.com/quantum-crowbar/quantum-toolbox)
 
 ## Executive Summary
 
